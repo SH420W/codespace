@@ -3,13 +3,14 @@
 
 int main(void)
 {
-    int points = get_int("How many points did you lose?")
+    int points = get_int("How many points did you lose?");
+    const int NUM = 2;
 
-    if(points < 2)
+    if(points < NUM)
     {
         printf("you good \n");
     }
-    else if (points > 2)
+    else if (points > NUM)
     {
         printf("oof \n");
     }
